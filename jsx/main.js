@@ -1,3 +1,5 @@
+/* Kildare Lauser @LauserK */
+
 var CourseRow = React.createClass({
 	render: function (){
 		var rows = [];
@@ -32,19 +34,19 @@ var Course = React.createClass({
 var courseList = [
 	{		
 		"name": "Curso de Desarrollo Web",
-		"badge": "/img/badge.png"
+		"badge": "img/badge.png"
 	},
 	{		
 		"name": "Curso de Android",
-		"badge": "/img/badge.png"
+		"badge": "img/badge.png"
 	},
 	{		
 		"name": "Curso de Django",
-		"badge": "/img/badge.png"
+		"badge": "img/badge.png"
 	},	
 	{		
 		"name": "Curso de React.js",
-		"badge": "/img/badge.png"
+		"badge": "img/badge.png"
 	}
 ]
 
