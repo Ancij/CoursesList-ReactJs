@@ -9,7 +9,7 @@ class CourseApp extends React.Component {
 	}
 
 	componentWillMount() {
-		fetch('/courses.json')
+		fetch('courses.json')
 			.then((response) => {
 		    	return response.json()
 			})
